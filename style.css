@@ -1,0 +1,133 @@
+*{
+ padding: 0;
+ margin: 0;
+ border: none;
+}
+body {
+ /* display: flex;
+ align-items: center;
+ justify-content: center; */
+ background: rgb(22, 18, 22);
+}
+
+.card {
+ width: 416px;
+ height: 416px;
+ background: rgb(41, 18, 70);
+ border-radius: 40px;
+ padding: 30px;
+ margin: 10% auto;
+ /* visibility: hidden; */
+}
+.card .sign{
+ margin-left: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+ height: 50px;
+ background: rgb(82, 78, 78);
+ border-radius: 100%;
+}
+.header{
+ font-size: 40px;
+ padding-left: 30px;
+ margin-top: 40px;
+ color: white;
+}
+.btn-container{
+ 
+ padding: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.btn-container button{
+ color: white;
+ font-size: 20px;
+ cursor: pointer;
+ border-radius: 100%;
+ width: 60px;
+ height: 60px;
+}
+.button1{
+ background: grey;
+}
+.button2 {
+ background: rgb(92, 85, 85);
+}
+.button3 {
+ background: rgb(170, 134, 134);
+}
+.button4 {
+ background: rgb(182, 182, 88);
+}
+.button5 {
+ background: goldenrod;
+}
+
+.submit button{
+ font-size: 25px;
+ color: goldenrod;
+ /* padding: auto 30px; */
+ width: 100%;
+ height: 60px;
+ border-radius: 30px;
+ background-color: white;
+ cursor: pointer;
+ 
+}
+.submit{
+
+ /* background-color: red; */
+ margin: 20px;
+
+ }
+.text{
+ padding-left: 30px;
+ color: rgb(207, 192, 192);
+ margin-top: 40px;
+ font-size: 20px;
+
+}
+button:hover{
+ background: green;
+}
+
+a{
+ text-decoration: none;
+ color: goldenrod;
+}
+.card2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 416px;
+ height: 416px;
+ background: rgb(41, 18, 70);
+ border-radius: 40px;
+ padding: 30px;
+ margin: 10% auto;
+ /* visibility: hidden; */
+}
+.calc{
+ margin-top: 20px;
+ border-radius: 10px;
+ background: rgb(49, 43, 43);
+ padding: 4px 15px;
+ color: goldenrod;
+}
+
+.card .showbutton{
+
+ background: red;
+
+}
+h1{
+ font-size: 20px;
+}
+
+
+
+
